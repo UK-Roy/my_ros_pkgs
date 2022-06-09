@@ -1,0 +1,5 @@
+<launch>
+	<!-- launch file -->
+	<include file="$(find turtlebot3_gazebo)/launch/turtlebot3_empty_world.launch" />
+	<node pkg="make_shape" type="circle_server.py" name="circle_server" output="screen" />
+</launch>

@@ -1,0 +1,4 @@
+<launch>
+    <node pkg='lesson1' type='imu_data_subscriber.py' name='imu_data_subscriber' output='screen'>
+    </node>
+</launch>

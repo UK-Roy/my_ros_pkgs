@@ -1,0 +1,4 @@
+<launch>
+	<!-- launch file -->
+	<node pkg="make_shape" type="square.py" name="square" output="screen" />
+</launch>

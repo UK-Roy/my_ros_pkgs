@@ -1,0 +1,7 @@
+<launch>
+	<node pkg='lesson1' type='talker.py' name='talker' output='screen'>
+	</node>
+
+	<node pkg='lesson1' type='listener.py' name='listener' output='screen'>
+	</node>
+</launch>

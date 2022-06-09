@@ -1,0 +1,8 @@
+int32 num
+string shape
+---
+string s
+float64 x
+float64 y
+float64 z
+float64 w
